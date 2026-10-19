@@ -1,23 +1,26 @@
 @use 'variables' as *
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 2.9s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 42%
+    left: -11%
+    width: 25%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 12%
     right: 10%
-    width: 20%
-
-
+    width: 23%
+  &-3
+    animation: float1 2.7s ease-in-out infinite alternate
+    position: absolute
+    top: 75%
+    right: 7%
+    width: 35%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
@@ -25,50 +28,196 @@
   flex: 0 0 auto !important
   width: 58.33333333% !important
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+  width: 28%
 
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
+
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $white !important
 figcaption 
-    font-weight: normal !important
+  font-weight: normal !important
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+.banner-interno__titulo__icono
+  background-color:  $color-acento-botones
+  i  
+    color: $color-sistema-texto !important
 
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario     
+.lista-ul--color.color-adicional-1 li > i:first-of-type  
+  color: $color-adicional-1  
+.lista-ul--color.color-adicional-2 li > i:first-of-type  
+  color: $color-adicional-2  
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-botones
+  background-color: $color-acento-botones
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: $color-sistema-texto
+.text-color-sistema
+  color: $color-sistema-texto !important
+.bg-color-adicional-1
+  background-color: $color-adicional-1
+.ct-color-primario
+  color: $color-primario
+.ct-color-acento-botones
+  color: $color-acento-botones
+.ct-secundario 
+  color: $color-secundario !important
+.ct-acento-contenido 
+  color: $color-acento-contenido !important
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+.br-top
+  border-top-left-radius: 20px 
+  border-top-right-radius: 20px 
+.br-left
+  border-top-left-radius: 20px 
+  border-bottom-left-radius: 20px 
+.br-right
+  border-top-right-radius: 20px 
+  border-bottom-right-radius: 20px 
+.tabs-a__tab__text 
+  white-space: normal
+.l-circle i.fa-circle
+  font-size: 6px
+  top: 10px !important
+
+.bg-fondo  
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url(../assets/curso/temas/bg/bg-slider.png)
+    background-size: cover
+    background-repeat: no-repeat
 .bg-color
   &-1
+    background-color: #C0ABCC !important
+  &-2
+    background-color: #F7E5E7 !important
+  &-3
+    background-color: #E09AA4
+  &-4
+    background-color: #E5EDFA
+.bgcompl
+  &-1
+    background: url(../assets/curso/temas/bg/bg-slydere.png)
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    margin-inline: -3.4rem
+    @media screen and (max-width: 992px)
+      margin-inline: -3rem  
+      background-size: cover 
+    @media screen and (max-width: 767px)
+      margin-inline: -1.4rem  
+      background-size: cover
+
+
+.w-80x
+  width: 80px  
+.tabla-a th
+  text-align: start
+  background-color: #E0E9E9
+.slyder-a
+  &__bullets__item--active  
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+  &__tipo-b .slyder-a__btn--atrs, &__tipo-b .slyder-a__btn--sigt
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.acordion
+  &__accion__btn--a
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+  &__activo
+    background-color: #E5FBFA !important
+.slyder-f__btn i
+  color: $color-acento-botones
+.tabs-c
+  &__tab
+    background-color: #EFE9F2
+    &--active
+      background-color: $white
+      font-weight: bold
+.tabs-a
+  &.color-acento-botones .tabs-a__tab__selected
+    color: $color-sistema-texto !important
+  &__tab
+    background-color: #99B9E9
+
+
+.subt
+  display: flex
+  align-items: center
+  position: relative  
+  width: fit-content  
+  img
+    width: 55px
+    z-index: 1
+    padding-left: 3px
+  h3 
+    z-index: 1
+    padding: 0px 15px
+    color: $white
+  &::before
+    content: ''
+    position: absolute
     background-color: $color-primario
-
-
-
-
-
+    border-radius: 5px
+    width: 100%
+    height: 85%      
+    z-index: 0
+    left: 0px
+    bottom: 0px
+  @media (max-width: $bp-max-sm)
+    &::before
+      height: 100%
+.t5
+  &-1
+    z-index: 1
+  &-2
+    position: relative
+    .slyder-f
+      z-index: 1
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      background-color: $white
+      border-radius: 20px
+      z-index: 0
+      width: 100%
+      height: 100%         
+      left: -20%
+      bottom: 0px
+    @media (max-width: $bp-max-sm)
+      &::before
+        display: none
 
 
 /**************************************************************/

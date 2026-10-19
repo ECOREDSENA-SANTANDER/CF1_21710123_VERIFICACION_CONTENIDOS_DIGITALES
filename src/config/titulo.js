@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Caracterización de contenidos digitales y mecanismos de procedencia'

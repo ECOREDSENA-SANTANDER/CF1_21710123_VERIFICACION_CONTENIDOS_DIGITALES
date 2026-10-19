@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+    p La identificación de evidencias de procedencia requiere comprender que un archivo no constituye únicamente aquello que se observa, escucha o lee. Su formato, metadatos, fuente de obtención, historial de transformación y registros asociados pueden aportar información relevante para aproximarse al origen y la trazabilidad. El componente diferenció contenidos originales, derivados, compuestos y sintéticos; explicó procedencia, atribución, autenticidad técnica, integridad y veracidad; y analizó el valor de EXIF, XMP e IPTC. Estos conocimientos permiten interpretar las evidencias con mayor rigor y evitar que una única señal, su presencia o su ausencia, se convierta en una conclusión injustificada.
+    p El aprendizaje se integra en cinco acciones: preservar la copia de trabajo, identificar las fuentes de origen, extraer metadatos, clasificar evidencias y registrar la información inicial. Esta secuencia fortalece una práctica organizada y responsable en la que la protección de datos, la propiedad intelectual, la seguridad de la información y la trazabilidad acompañan el procedimiento técnico. El aprendiz queda preparado para avanzar hacia procesos posteriores de verificación, en los cuales podrá comprobar con mayor profundidad procedencia, integridad y autenticidad mediante mecanismos criptográficos y herramientas de validación.    
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.p-4
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Mapa conceptual sobre contenidos digitales, procedencia, metadatos, fuentes, preservación, normativa e identificación de evidencias.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
