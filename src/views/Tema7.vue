@@ -7,7 +7,7 @@
         span 7
       h1 Proceso inicial de identificación de evidencias de procedencia
 
-    .bloque-texto-g.color-secundario.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade")
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t7/1.png')})`}"
       )
@@ -31,7 +31,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-5.col-11
             h5 Extracción de metadatos
-            p La copia de trabajo se inspecciona mediante herramientas adecuadas al tipo de archivo. Se registran formato, fechas, dispositivo, software, autor declarado, dimensiones o duración, descripción, ubicación, derechos e identificadores cuando estén disponibles. También se registra la herramienta utilizada, porque diferentes aplicaciones pueden mostrar los mismos campos de manera distinta. El principio es extraer primero e interpretar después.
+            p La copia de trabajo se inspecciona mediante herramientas adecuadas al tipo de archivo. Se registran formato, fechas, dispositivo, #[em software], autor declarado, dimensiones o duración, descripción, ubicación, derechos e identificadores cuando estén disponibles. También se registra la herramienta utilizada, porque diferentes aplicaciones pueden mostrar los mismos campos de manera distinta. El principio es extraer primero e interpretar después.
           .col-lg-5.col-11.d-none.d-lg-block
             img(src='@/assets/curso/temas/t7/slide3.png', alt='')
         .row.align-items-center.justify-content-center

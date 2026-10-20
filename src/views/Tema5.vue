@@ -7,7 +7,7 @@
         span 5
       h1 Preservación de evidencias digitales
 
-    .bloque-texto-g.color-secundario.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t5/1.png')})`}"
       )

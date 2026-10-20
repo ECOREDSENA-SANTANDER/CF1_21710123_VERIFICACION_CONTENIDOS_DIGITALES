@@ -124,9 +124,24 @@ figcaption
     background-color: #E09AA4
   &-4
     background-color: #E5EDFA
+  &-5
+    background-color: #EFE9F2
+  &-6
+    background-color:  #99B9E9
 .bgcompl
   &-1
     background: url(../assets/curso/temas/bg/bg-slydere.png)
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    margin-inline: -3.4rem
+    @media screen and (max-width: 992px)
+      margin-inline: -3rem  
+      background-size: cover 
+    @media screen and (max-width: 767px)
+      margin-inline: -1.4rem  
+      background-size: cover
+  &-2
+    background: url(../assets/curso/temas/bg/1.png)
     background-size: 100% 100%
     background-repeat: no-repeat
     margin-inline: -3.4rem
@@ -169,7 +184,16 @@ figcaption
     color: $color-sistema-texto !important
   &__tab
     background-color: #99B9E9
-
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: $color-sistema-texto
+  font-style: normal !important
+.tarjeta--boton
+  h4, p
+    color: $white
+  &:hover
+    background-color: #EFE9F2
+    h4, p
+      color: $color-sistema-texto
 
 .subt
   display: flex

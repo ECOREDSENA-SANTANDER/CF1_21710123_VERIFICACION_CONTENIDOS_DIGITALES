@@ -7,7 +7,7 @@
         span 4
       h1 Fuentes primarias y secundarias
 
-    .bloque-texto-g.color-secundario.color-acento-botones.p-3.p-sm-4.p-md-5(data-aos="fade")
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5(data-aos="fade")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t4/1.png')})`}"
       )

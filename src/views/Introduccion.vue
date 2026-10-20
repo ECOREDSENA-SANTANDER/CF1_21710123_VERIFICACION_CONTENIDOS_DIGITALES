@@ -11,7 +11,7 @@
 
     p Los contenidos digitales forman parte de las actividades cotidianas de comunicación, formación, producción, administración y prestación de servicios. Fotografías, videos, audios, documentos electrónicos, publicaciones en plataformas digitales y materiales generados mediante sistemas de inteligencia artificial circulan continuamente entre personas y organizaciones. Sin embargo, disponer de un archivo no significa conocer con certeza su origen, las transformaciones que ha experimentado o las condiciones bajo las cuales fue producido. Por esta razón, el componente formativo Caracterización de contenidos digitales y mecanismos de procedencia orienta al aprendiz hacia la identificación de evidencias que permitan reconstruir, de manera técnica y responsable, información relacionada con la creación, modificación y circulación de un activo digital. 
 
-    .bloque-texto-g.color-secundario.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/intro/1.png')})`}"
       )
