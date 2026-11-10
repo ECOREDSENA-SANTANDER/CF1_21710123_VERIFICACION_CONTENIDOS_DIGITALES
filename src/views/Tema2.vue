@@ -100,7 +100,7 @@
         .tarjeta.bg-white.p-4
           TarjetaAudio.color-acento-botones(
           texto="Pódcast: ¿Tiene procedencia verificable? Eso no significa que sea verdadero"
-          :audio="require_src('@/assets/actividad/audio/success.mp3')")
+          :audio="require_src('@/assets/curso/temas/t2/CF1_21710123_podcast.mp3')")
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
 
