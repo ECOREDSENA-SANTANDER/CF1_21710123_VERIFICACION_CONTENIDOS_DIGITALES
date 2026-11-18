@@ -27,7 +27,7 @@
       .col-lg-9(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
-          span Concepto, función y tipos de metadatos
+          span Tipos de metadatos y su utilidad en el análisis de procedencia
         .tabla-a.color-acento-contenido
           table
             thead
@@ -109,7 +109,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-6
-        p Los metadatos no permanecen necesariamente unidos al contenido durante todo su ciclo de vida. Pueden conservarse, modificarse, ampliarse, eliminarse o almacenarse de manera externa. Algunas aplicaciones preservan campos existentes, mientras otras los sustituyen o descartan. La pérdida también puede responder a decisiones legítimas de privacidad, por ejemplo, eliminar coordenadas antes de compartir una fotografía. Por ello, ningún metadato debe evaluarse aislado de su origen, contexto, posibilidad de modificación y relación con otras evidencias
+        p Los metadatos no permanecen necesariamente unidos al contenido durante todo su ciclo de vida. Pueden conservarse, modificarse, ampliarse, eliminarse o almacenarse de manera externa. Algunas aplicaciones preservan campos existentes, mientras otras los sustituyen o descartan. La pérdida también puede responder a decisiones legítimas de privacidad, por ejemplo, eliminar coordenadas antes de compartir una fotografía. Por ello, ningún metadato debe evaluarse aislado de su origen, contexto, posibilidad de modificación y relación con otras evidencias.
       .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/temas/t3/9.png', alt='')
 

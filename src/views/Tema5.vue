@@ -39,7 +39,7 @@
           img(src='@/assets/curso/temas/t5/paso3.svg', alt='')
         .col-lg-8.mb-4.mb-lg-0
           h4 Copia de trabajo
-          p.mb-0 Se conserva como referencia del material recibido.
+          p.mb-0 Se utiliza una copia destinada a la inspección y aplicación de herramientas.
       .row(titulo="Paso 4" subtitulo="")
         .col-lg-2.d-none.d-lg-block
           img(src='@/assets/curso/temas/t5/paso4.svg', alt='')
